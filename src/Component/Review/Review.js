@@ -7,12 +7,11 @@ const Review = (props) => {
   const [reviews, setReviews] = useReview();
   return (
     <div>
-      <div>
-        <div className="girda">
-          {reviews.map((review) => (
-            <ShowReview key={review._id} review={review}></ShowReview>
-          ))}
-        </div>
+      <h1 className="para">Customer Review</h1>
+      <div className="girda">
+        {reviews.map((review) => (
+          <ShowReview key={review._id} review={review}></ShowReview>
+        ))}
       </div>
     </div>
   );

@@ -45,6 +45,7 @@
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     gap: 12px;
+    text-align: center;
 }
 
 .section-2{
@@ -69,6 +70,22 @@
 }
 
 .review-paragraph{
-    
     text-align: center;
+}
+
+.button-link{
+    text-decoration: none;
+    background-color: #4CAF50; /* Green */
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

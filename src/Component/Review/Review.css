@@ -5,8 +5,15 @@
     padding: 10px;
     text-align: center;
     
+    
 }
 
 .ektagrid{
     border: 2px solid goldenrod;
+}
+
+.para{
+    text-align: center;
+    padding: 25px;
+    background-color: bisque;
 }

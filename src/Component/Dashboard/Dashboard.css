@@ -1,5 +1,5 @@
 .grid-chart{
-    margin-top: 40px;
+    margin: 40px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
