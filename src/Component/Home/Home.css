@@ -1,0 +1,74 @@
+.home-writing{
+    width: 60%;
+}
+
+.para{
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.home-writing p{
+    margin: 14px 10%;
+    text-align: center;
+    
+}
+
+.home-writing button{
+    margin: 0 auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    
+}
+
+.home-img img{
+    height: 400px;
+}
+
+.flex{
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 12px;
+}
+
+.section-2{
+    margin-top: 30px;
+}
+
+.section-2 h1{
+    text-align: center;
+}
+
+.section-2 button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+}
+
+.review-paragraph{
+    
+    text-align: center;
+}
