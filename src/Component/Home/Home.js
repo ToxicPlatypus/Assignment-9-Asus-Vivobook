@@ -1,7 +1,12 @@
 import React from "react";
+import useReview from "../../Hooks/useReview";
+import Review from "../Review/Review";
+import ShowReview from "../ShowReview/ShowReview";
 import "./Home.css";
 
 const Home = () => {
+  const [reviews, setReviews] = useReview();
+  // console.log(reviews);
   return (
     <div>
       <section className="flex">
@@ -22,7 +27,7 @@ const Home = () => {
 
       <section className="section-2">
         <h1 className="para">Customer Review</h1>
-        <div className="grid">
+        {/* <div className="grid">
           <div className="review-paragraph">
             <h3>Name: Reviewer 1</h3>
             <p>
@@ -64,6 +69,12 @@ const Home = () => {
             </p>
             <h5>Rating: 4.8</h5>
           </div>
+        </div> */}
+
+        <div>
+          {reviews.map((review) => (
+            <ShowReview key={review._id} review={review}></ShowReview>
+          ))}
         </div>
 
         <button>See All Reviews</button>
